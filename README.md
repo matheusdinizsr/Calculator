@@ -26,7 +26,7 @@ O app possui as funcionalidades de uma calculadora básica. Certifiquei de que b
 Neste projeto aprendi e utilizei:
 
 - **Switch Case**: Utilizado para verificação de estado. **Cada entrada do usuário representa um ponto de funcionamento** da calculadora, como primeiro número digitado, escolha da operação a ser realizada, segundo número digitado, realização da operação e reinicialização da calculadora.
-- **Binding dos botões com as variáveis**: Aprendi a relacionar os botões aos métodos do código, fazendo com que cada clique em botão de número ou sinal operacional *(OnClick{tecla})* execute a função correspondente e exiba corretamente o texto na tela.
+- **Binding dos botões com métodos**: Aprendi a relacionar os botões aos métodos do código, fazendo com que cada clique em botão de número ou sinal operacional *(OnClick{tecla})* execute a função correspondente e exiba corretamente o texto na tela.
 - **Formatação de texto no label**: Utilizando C#, precisei criar um código que exibisse os números inseridos pelo usuário na ordem correta, concatenando as entradas númericas, sinais de operação e separadores (decimal e milhar).
 - **Formatação da UI**: Com o Xaml, aprendi a criar o *layout* da aplicação, deixando a sua aparência similar a do Windows, utilizando elementos básicos como *VerticalStackLayout*, *HorizontalStackLayout* e *Label*, e também a inicializar a aplicação no tamanho correto.
 ## Desafios
