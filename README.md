@@ -9,7 +9,7 @@ O app possui as funcionalidades de uma calculadora básica. Certifiquei de que b
 
 ## Demonstração
 
-![Calculadora em  funcionamento.](https://imgur.com/gGkBaQF)
+![Calculadora em funcionamento.](https://i.imgur.com/gGkBaQF.gif)
 
 ## Funcionalidades
 
