@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Start">
+        
+        <Label
+            x:Name="LabelOperacao"
+            Text="0"
+            BackgroundColor="LightGray"
+            FontSize="Small"
+            HorizontalTextAlignment="End"
+            />
+
+        <Label
+            x:Name="LabelEntrada"
+            Text="0"
+            BackgroundColor="LightGray"
+            FontSize="Large"
+            HorizontalTextAlignment="End"
+            />
+
+        <HorizontalStackLayout 
+            BackgroundColor="DarkBlue">
+            <VerticalStackLayout     BackgroundColor="DarkCyan">
+                <Button Text="7" Clicked="OnClick7"/>
+                <Button Text="4" Clicked="OnClick4"/>
+                <Button Text="1" Clicked="OnClick1"/>
+                <Button Text="+/-" Clicked="OnClickNegativa"/>
+
+            </VerticalStackLayout>
+            <VerticalStackLayout     BackgroundColor="DarkCyan">
+                <Button Text="8" Clicked="OnClick8"/>
+                <Button Text="5" Clicked="OnClick5"/>
+                <Button Text="2" Clicked="OnClick2"/>
+                <Button Text="0" Clicked="OnClick0"/>
+
+            </VerticalStackLayout>
+            <VerticalStackLayout     BackgroundColor="DarkCyan">
+                <Button Text="9" Clicked="OnClick9"/>
+                <Button Text="6" Clicked="OnClick6"/>
+                <Button Text="3" Clicked="OnClick3"/>
+                <Button Text="=" Clicked="OnClickIgual"/>
+
+            </VerticalStackLayout>
+            <VerticalStackLayout     BackgroundColor="DarkCyan">
+
+                <Button Text="+" Clicked="OnClickAdicao"/>
+                <Button Text="-" Clicked="OnClickSubtracao"/>
+                <Button Text="*" Clicked="OnClickMultiplicacao"/>
+                <Button Text="/" Clicked="OnClickDivisao"/>
+
+            </VerticalStackLayout>
+            <VerticalStackLayout     BackgroundColor="DarkCyan">
+
+                <Button Text="BackSp" Clicked="OnClickBack"/>
+                <Button Text="C" Clicked="OnClickClear"/>
+                <Button Text="CE" Clicked="OnClickClearEntry"/>
+                <Button Text="," Clicked="OnClickVirgula"/>
+
+            </VerticalStackLayout>
+            
+            
+            
+        
+        </HorizontalStackLayout>
+
+
+    </VerticalStackLayout>
+    
+
+</ContentPage>
